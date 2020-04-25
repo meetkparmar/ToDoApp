@@ -8,7 +8,6 @@ plugins {
 }
 
 android {
-
   testOptions {
     unitTests(delegateClosureOf<com.android.build.gradle.internal.dsl.TestOptions.UnitTestOptions> {
       isReturnDefaultValues = true
@@ -30,7 +29,7 @@ android {
     applicationId = "com.prudhvir3ddy.todo_app_gettingthingsdone"
     minSdkVersion(BuildPlugins.AndroidSdk.min)
     targetSdkVersion(BuildPlugins.AndroidSdk.target)
-    versionCode = 2
+    versionCode = 6
     versionName = "1.0"
     testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
   }
@@ -86,4 +85,7 @@ dependencies {
   //dagger
   implementation(BuildPlugins.Libs.dagger)
   kapt(BuildPlugins.Libs.daggerKapt)
+
+  //in-app updates
+  implementation(BuildPlugins.Libs.inAppUpdates)
 }

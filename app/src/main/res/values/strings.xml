@@ -17,4 +17,12 @@
   <string name="please_enter_your_name">Please Enter Your Name</string>
   <string name="continue_btn_txt">Continue</string>
   <string name="dot">•</string>
+
+  <!-- in app updates -->
+  <string name="app_version_heading">Current App Version</string>
+  <string name="check_for_update">Check For Update</string>
+  <string name="update_available">Update available</string>
+  <string name="update_not_available">No update available</string>
+  <string name="restart_to_update">Update download. Tap to restart</string>
+  <string name="action_restart">Restart</string>
 </resources>

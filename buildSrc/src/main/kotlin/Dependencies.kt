@@ -24,7 +24,6 @@ object BuildPlugins {
 
   }
 
-
   /** General Libraries */
   object Libs {
 
@@ -39,6 +38,7 @@ object BuildPlugins {
       const val glideVersion = "4.11.0"
       const val viewPagerVersion = "1.0.0"
       const val daggerVersion = "2.25.4"
+      const val inAppUpdatesVersion = "1.7.1"
     }
 
     const val ktStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
@@ -58,6 +58,7 @@ object BuildPlugins {
     const val roomKapt = "androidx.room:room-compiler:${libVersions.roomVersion}"
     const val daggerKapt = "com.google.dagger:dagger-compiler:${libVersions.daggerVersion}"
     const val glideKapt = "com.github.bumptech.glide:compiler:${libVersions.glideVersion}"
+    const val inAppUpdates = "com.google.android.play:core:${libVersions.inAppUpdatesVersion}"
   }
 
   /** Libraries for Tests */
